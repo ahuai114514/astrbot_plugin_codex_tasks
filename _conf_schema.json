@@ -1,0 +1,10 @@
+{
+  "cli_path": {"description": "Codex入口", "type": "string", "default": "/AstrBot/data/codex-cli/codex-bot"},
+  "max_concurrent": {"description": "并发任务数", "type": "int", "default": 2},
+  "status_item_template": {
+    "description": "自定义排版模板",
+    "type": "text",
+    "default": "【${状态}】${项目}\n任务 ID：${任务ID}\n创建时间：${创建时间}\n${摘要}",
+    "hint": "可用变量：${任务ID}、${项目}、${状态}、${状态码}、${Bot处理状态}、${创建时间}、${摘要}、${输出}、${错误}、${退出码}。"
+  }
+}

@@ -1,0 +1,7 @@
+name: astrbot_plugin_codex_tasks
+display_name: Codex后台任务
+desc: 后台编程任务与 Bot 内部续接
+version: 1.0.0
+author: ahuai
+astrbot_version: ">=4.27,<5"
+repo: https://github.com/ahuai114514/astrbot_plugin_codex_tasks
